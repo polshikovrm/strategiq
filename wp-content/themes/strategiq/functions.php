@@ -26,3 +26,9 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+add_action('wp_print_styles', 'add_my_stylesheet');
+function add_my_stylesheet() {
+    $myStyle =  get_template_directory_uri() . '/dist/styles/style.css';
+    wp_enqueue_style( 'myStyleSheets', $myStyle, array(), '1.0.0');
+}
