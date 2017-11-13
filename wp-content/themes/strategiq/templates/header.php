@@ -1,6 +1,6 @@
 <header class="main-header" role="banner">
   <div class="nav-row">
-    <div class="container">
+    <div class="header-holder">
       <nav class="navbar">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
@@ -13,7 +13,7 @@
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="navbar-collapse">
+          <div class="collapse navbar-collapse menu-holder" id="navbar-collapse">
 
             <?php if(!is_front_page()) {
               $url_prefix = esc_url(site_url()) . '/';
@@ -22,7 +22,7 @@
 
 
             <div class="nav-contact">
-              <div class="container">
+              <div class="">
                 <div class="contact-phone">27 (0)21 401 8940</div>
                 <ul class="contact-social">
                   <li>

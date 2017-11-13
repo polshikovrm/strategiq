@@ -28,6 +28,7 @@
     color: #3c3c3c;
     padding: 0 0 11px;
     position: relative;
+    text-transform: capitalize;
 }
 .twocolumn-section .text-box{
     margin: 0 0 16px;
@@ -90,11 +91,11 @@
     display: flex;
     align-items: center;
 }
-.twocolumn-section .text-holder a{
+.twocolumn-section .text-holder a:not(.btn){
     font-weight: 900;
     text-decoration: underline;
 }
-.twocolumn-section .text-holder a:hover{
+.twocolumn-section .text-holder a:not(.btn):hover{
     text-decoration: none;
 }
 .twocolumn-section .text-holder:nth-child(1){
@@ -206,8 +207,126 @@
 .twocolumn-section.orange-bg .services-block a:hover{
     color: #fff;
 }
+/*----------- Home page styles -----------*/
+.section-home-banner .header--col1{
+    background: url(../images/home_banner_3.jpg) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.section-home-banner .banner-overlay{
+    height: 100%;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:36px;
+    line-height: 1.33;
+}
+.section-home-banner .banner-overlay p{
+    font-size:inherit;
+    text-shadow: none;
+}
+.section-home-banner .header--col2--insights{
+    background: #504562;
+}
+.section-home-banner .header--col2--signup{
+    text-transform: uppercase;
+}
+.post-sm .entry-date{
+    font-size:14px;
+    text-transform: uppercase;
+    color: #aaa;
+}
+.section.image-bg{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.section.image-bg h1,
+.section.image-bg h2,
+.section.image-bg h3,
+.section.image-bg h4,
+.section.image-bg h5,
+.section.image-bg h6{
+    color: #fff;
+}
+.section.image-bg .text-holder{
+    background: rgba(68, 62, 84, 0.85);
+}
+.btn.small-radius{
+    border-radius: 3px;
+}
+.btn.btn-lg{
+    font-size:18px;
+    padding: 10px 26px 8px;
+}
+.btn.btn-md{
+    font-size:16px;
+    padding: 7px 35px 6px;
+}
+.btn-box{
+    max-width: 290px;
+    margin: 0 auto 22px;
+}
+.btn-box .btn{
+    display: block;
+}
+.buttons-holder{
+    padding: 7px 0 22px;
+}
+.buttons-holder .btn{
+    letter-spacing: 1px;
+    margin: 0 13px 0 0;
+    font-weight: 500;
+}
+.twocolumn-section.services-section .text-holder{
+    padding: 71px 6% 57px 165px;
+}
+.section-home-team{
+    padding: 71px 0;
+}
+.section-home-team .text-frame{
+    margin-bottom: 38px;
+}
+.section-home-team .text-frame p{
+    margin: 0;
+    line-height: 1.428;
+}
+.team-thumbs{
+    margin: 0 0 47px;
+}
+.team-item .team-item-name{
+    font-weight: 700;
+    font-size:24px;
+}
+.team-item .team-item-name small{
+    font-weight: 300;
+    color: #787878;
+}
+.well{
+    font-size:16px;
+    padding: 19px 10px;
+}
 @media (min-width:768px){
-
+    .navbar-collapse.collapse.menu-holder{
+        display: flex !important;
+        justify-content: space-between;
+        width: calc(100% - 310px);
+    }
+    .menu-holder .nav-contact{
+        flex: none;
+        width: 170px;
+        position: static;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar:before{
+        display: none;
+    }
 }
 @media (min-width:992px){
     .title-block h1{

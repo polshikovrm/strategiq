@@ -1,9 +1,9 @@
 <section class="section section-home-banner">
   <div class="header--col1">
     <div class="banner-overlay">
-      <p>
-        StrategiQ Capital is an independent investment manager with experience in managing personalised investment portfolios for private investors, trusts and institutions
-      </p>
+        <div>
+            <p>StrategiQ Capital is an independent investment manager with experience in managing personalised investment portfolios for private investors, trusts and institutions</p>
+        </div>
     </div>
   </div>
   <div class="header--col2">
@@ -47,110 +47,49 @@
   </div>
 </section>
 
-<section id="about" class="section section-home-about">
-
-  <div class="about-col1">
-    <div class="about--about">
-      <div class="about--content">
-        <div class="about--icon">
-          <span class="icon-info"></span>
+<section class="section content-section">
+    <div class="container">
+        <div class="title-block text-center">
+            <h1>About Us</h1>
         </div>
-        <h2 class="section-title size-sm colour-white">About Us</h2>
-        <p>StrategiQ Capital was founded in 2015 with the culmination of like-minded investment professionals seeking to actively manage and grow investors wealth. As guardians of the capital entrusted to us we invest our money alongside our investors ensuring an alignment of interests.</p>
-        <p>We believe that our mandate is not limited to investment performance alone, but also in playing an active role in assisting our clients in developing an overarching wealth management strategy. This will only be achieved by building meaningful relationships with our clients, thus facilitating a seamless transfer of assets from generation to generation, ensuring an uninterrupted continuity of their family’s legacy and business interests.</p>
-      </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-push-1 text-center">
+                <p>StrategiQ Capital was founded in 2015 with the culmination of like-minded investment professionals seeking to actively manage and grow investors wealth. As guardians of the capital entrusted to us we invest our money alongside our investors ensuring an alignment of interests.</p>
+                <p>We believe that our mandate is not limited to investment performance alone, but also in playing an active role in assisting our clients in developing an overarching wealth management strategy. This will only be achieved by building meaningful relationships with our clients, thus facilitating a seamless transfer of assets from generation to generation, ensuring an uninterrupted continuity of their family's legacy and business interests.</p>
+                <div class="btn-box">
+                    <a href="#" class="btn btn-default small-radius btn-lg">FIND OuT MORE</a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="about--manager">
-      <div class="about--content">
-        <div class="about--icon">
-          <span class="icon-diamond"></span>
-        </div>
-        <h2 class="section-title size-sm colour-white">Discretionary Investment Manager</h2>
-        <p>StrategiQ is an approved discretionary investment manager (i.e. a Category II Financial Services Provider, FSP Licence No 46624) that is independently managed, focussed on providing investors with consistent real returns whilst preserving capital over the long term. Our service and reporting to our clients takes two forms, written and personal.</p>
-        <p>We produce quarterly reports which cover the respective portfolio’s performance and risk statistics. We like to meet frequently with clients to stay close to their portfolio objectives and any changes that may need to be considered in the management of their portfolios. Our Weekly Review emailed each week keeps our clients abreast of current market conditions.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="about-col2">
-    <div class="about--style">
-      <div class="about--content">
-        <div class="about--icon">
-          <span class="icon-bulb"></span>
-        </div>
-        <h2 class="section-title size-sm colour-white">Investment Style</h2>
-        <p>At StrategiQ Capital we understand that every investor is different, requiring a personalised investment strategy that will meet their long term goals and objectives.</p>
-        <p>Our investment philosophy and approach is governed by the following key principles:</p>
-        <ul class="margin-bot-none">
-          <li class="margin-bot-sm">
-            We are a discretionary asset manager (we assume responsibility in managing our client’s portfolios);
-          </li>
-          <li class="margin-bot-sm">
-            We focus on identifying high-quality investments because it makes sense to us and fits our risk averse-personalities;
-          </li>
-          <li class="margin-bot-sm">
-            We are active managers, focused on providing clients with consistent real returns whilst seeking to preserve their capital over the long-term;
-          </li>
-          <li class="margin-bot-sm">
-            We follow an unconstrained, high conviction approach to investing which proves to generate additional returns in the long-term;
-          </li>
-          <li class="margin-bot-sm">
-            We leverage specialist investment professionals utilising their skill and knowledge where it can add value;
-          </li>
-          <li class="margin-bot-sm">
-            We ensure effective diversification at all levels (across asset classes and geographies); and
-          </li>
-          <li class="margin-bot-sm">
-            We structure portfolios to be cost and tax effective.
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="about-col3">
-   <div class="about--team">
-      <div class="about--content">
-        <div class="about--icon">
-          <span class="icon-people"></span>
-        </div>
-        <h2 class="section-title size-sm colour-white">The Team</h2>
-        <p>The investment team is comprised of passionate investment professionals with diverse qualifications, extensive experience and sound knowledge of the investment industry. We combine entrepreneurial spirit and intuition within the disciplined framework of our investment process in the management of our clients’ portfolios. </p>
-        <p class="margin-bot-md">Our boutique environment and team culture encourages growth and innovation within the maxims of honesty, integrity and respect.</p>
-
-        <div class="text-center margin-bot-md">
-          <a href="#team" class="btn btn-outline-white page-link">Meet The Team</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="about--why">
-      <div class="about--content">
-        <div class="about--icon">
-          <span class="icon-trophy"></span>
-        </div>
-        <h2 class="section-title size-sm colour-white">Why Us</h2>
-        <ul>
-          <li>Owner-managed and independent, allowing us the necessary flexibility to put clients first;</li>
-          <li>A dynamic investment process that is personalised to the unique needs of each client;</li>
-          <li>Highly qualified and experienced investment team delivering institutional skills to private clients;</li>
-          <li>Market and industry insights; and</li>
-          <li>The highest standards of client service.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
 </section>
-
+<section class="section twocolumn-section image-bg services-section" style="background-image: url(<?php echo get_template_directory_uri(); ?>/dist/images/bg-services-section.jpg)">
+    <div class="text-holder">
+        <div class="text">
+            <div class="title-block">
+                <h1>Our Services</h1>
+            </div>
+            <p>StrategiQ is an approved discretionary investment manager (i.e. a Category II Financial Services Provider, FSP Licence No 46624) that is independently managed, focussed on providing investors with consistent real returns whilst preserving capital over the long term. Our service and reporting to our clients takes two forms, written and personal.</p>
+            <p>We produce quarterly reports which cover the respective portfolio's performance and risk statistics. We like to meet frequently with clients to stay close to their portfolio objectives and any changes that may need to be considered in the management of their portfolios. Our Weekly Review emailed each week keeps our clients abreast of current market conditions.</p>
+            <div class="buttons-holder">
+                <a href="#" class="btn btn-default small-radius btn-md">asset Management</a>
+                <a href="#" class="btn btn-default small-radius btn-md">Family Office</a>
+                <a href="#" class="btn btn-default small-radius btn-md">ID Adviser</a>
+            </div>
+        </div>
+    </div>
+</section>
 <section id="team" class="section section-home-team">
   <div class="container">
-    <h1 class="section-title">The Team</h1>
+      <div class="title-block text-center">
+          <h1>our Team</h1>
+      </div>
     <div class="row">
-      <div class="col-sm-8 col-sm-push-2 text-center">
-        <p class="margin-bot-xl">The investment team is comprised of passionate investment professionals with diverse qualifications, extensive experience and sound knowledge of the investment industry. We combine entrepreneurial spirit and intuition within the disciplined framework of our investment process in the management of our clients’ portfolios. Our boutique environment and team culture encourages growth and innovation within the maxims of honesty, integrity and respect.</p>
+      <div class="col-sm-11 col-sm-push-1 text-center text-frame">
+        <p>The investment team is comprised of passionate investment professionals with diverse qualifications, extensive experience and sound knowledge of the investment industry. We combine entrepreneurial spirit and intuition within the disciplined framework of our investment process in the management of our clients' portfolios.</p>
+          <p>Our boutique environment and team culture encourages growth and innovation within the maxims of honesty, integrity and respect.</p>
       </div>
     </div>
-
     <ul class="team-thumbs">
       <li class="active">
         <a href="#team-luis"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/team_luis_sm.jpg" alt=""></a>
@@ -187,17 +126,6 @@
             <p>Luis obtained his B Com degree from the University of Cape Town and is a CFA Charter Holder. He started his financial services career in 1998 at Old Mutual and has gained valuable experience in fund management at several leading financial institutions.</p>
             <p>Luis was one of the founders of Mergence Investment Managers – a company which he helped expand to assets under management in excess of R6 billion in institutional funds at the time of his departure. During his career he has also managed numerous mandates for retirement funds.  Following his departure from Mergence, Luis joined Efficient Select, the asset management arm of the listed Efficient Group. He was appointed Managing Director of Efficient Select in 2011, where he was able to successfully grow the fund manager in the retail and institutional markets. In June 2015 he departed to setup StrategiQ Capital.</p>
           </div>
-          <ul class="team-item-contact">
-            <!--<li>
-              <a href=""><span class="icon-facebook"></span></a>
-            </li>
-            <li>
-              <a href=""><span class="icon-twitter"></span></a>
-            </li>-->
-            <li>
-              <a href="mailto:luis@strategiq.co.za"><span class="icon-envelope"></span></a>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
@@ -215,17 +143,6 @@
           <div class="team-item-bio">
             <p>Jarred graduated with a Bachelor’s of Commerce in Finance from the University of Cape Town (UCT). Jarred joined Strategiq Capital as an investment analyst in February 2015. Further, he has completed an honors in finance at the University of Cape Town, investigating the mitigation of risk within pair-trading strategies and is currently enrolled in the CFA programme. Jarred featured as the youngest ever contestant on the CNBC Africa Top Trader television show. He is predominantly responsible for the coverage of domestic and offshore equity instruments.</p>
           </div>
-          <ul class="team-item-contact">
-            <!--<li>
-              <a href=""><span class="icon-facebook"></span></a>
-            </li>
-            <li>
-              <a href=""><span class="icon-twitter"></span></a>
-            </li>-->
-            <li>
-              <a href="mailto:jarred@strategiq.co.za"><span class="icon-envelope"></span></a>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
@@ -244,17 +161,6 @@
             <p>Rob obtained his B Com Honours degree from the University of Stellenbosch and is a CFA Charter Holder. He started his financial services career in 2008 at ValuGro Capital which was rated as the top small asset management company during the same year. Valugro Capital was subsequently purchased by the listed Efficient Group and the asset management arm was renamed Efficient Select in 2011.
             <p>During his time at ValuGro Capital and Efficient Select, Rob Enslin was the portfolio manager of the Efficient Worldwide Flexible Fund which was the recipient of two Raging Bull Awards in 2011 and 2012 as the top performing fund (risk adjusted) in its category over a rolling 5 year period.  In 2015, Rob was appointed as Head of Private Clients, specialising in investments for high net worth clients, where he was able to successively implement a business strategy for the division and grow assets under management. In 2016, he departed to join StrategiQ Capital.</p>
           </div>
-          <ul class="team-item-contact">
-            <!--<li>
-              <a href=""><span class="icon-facebook"></span></a>
-            </li>
-            <li>
-              <a href=""><span class="icon-twitter"></span></a>
-            </li>-->
-            <li>
-              <a href="mailto:robert@strategiq.co.za"><span class="icon-envelope"></span></a>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
@@ -272,11 +178,6 @@
           <div class="team-item-bio">
             <p>Jason Frank graduated with a Bachelor’s of Commerce in Finance from the University of Cape Town (UCT). Further, he has completed an honors in finance at the University of Cape Town, investigating the internal liquidity risk effects on bond yield spreads. He is currently enrolled in the CFA programme. Jason is the newest member to the iQ team, joining as an equity analyst as of June 2016. He is predominantly responsible for the coverage of domestic and offshore equity instruments.</p>
           </div>
-          <ul class="team-item-contact">
-            <li>
-              <a href="mailto:jason@strategiq.co.za"><span class="icon-envelope"></span></a>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
@@ -316,138 +217,66 @@
     </div>
   </div>
 </section>
-
-<section id="portfolios" class="section section-home-portfolios">
-  <div class="container">
-    <h1 class="section-title">Portfolio Management Solutions</h1>
-    <div class="margin-bot-xl text-center">
-      <p>Our Personalised Investment Management Service enables you to delegate responsibility for managing your investments to Strategiq. Your dedicated investment manager will work with you to build a bespoke investment portfolio that is designed to meet your investment objectives. Your investment manager will then take responsibility for the day-to-day decision-making on your portfolio, deciding which investments to buy or sell, and when to do so.</p>
-      <p>Every client has a unique set of aims, objectives and circumstances. Your investment manager will always begin by working with you or your financial adviser to identify a set of achievable investment goals that take into account your investment time horizon, your attitude to investment risk and the investment returns you require. Together you will review your options and decide on the best way to achieve your objectives.</p>
-      <p>We believe asset allocation is a primary determinant of long-term investment performance. As a framework for constructing your portfolio we use a range of asset allocation strategies that have been determined by our Asset Allocation Committee. Your investment manager will then fine-tune your allocation to meet your exact requirements before selecting the investments held within each asset class.</p>
-      <p>Your investment manager will ensure your portfolio always reflects our core views and remains on target to meet your personal objectives. Our managers are supported by our independent team of research analysts who conduct formal monitoring and due diligence of assets, to ensure that your portfolio is invested across what we believe is the best range of investment options.</p>
+<section class="section section-home-portfolios">
+    <div class="container">
+        <div class="title-block text-center">
+            <h1>Our Partners</h1>
+        </div>
+        <div class="partners-carousel owl-carousel">
+            <div class="partner-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_sanlam.gif">
+            </div>
+            <div class="partner-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_hewett.gif">
+            </div>
+            <div class="partner-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_momentum.gif">
+            </div>
+            <div class="partner-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_nedbank.gif">
+            </div>
+            <div class="partner-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_credo.gif">
+            </div>
+            <div class="partner-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_ens.gif">
+            </div>
+            <div class="partner-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_agcapital.gif">
+            </div>
+            <div class="partner-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_swissquote_2.gif">
+            </div>
+            <div class="partner-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_iis.gif">
+            </div>
+            <div class="partner-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_investec.gif">
+            </div>
+            <div class="partner-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_nedgroup.gif">
+            </div>
+            <div class="partner-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_sastockbrokers.gif">
+            </div>
+            <div class="partner-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_oldmutual.gif">
+            </div>
+            <div class="partner-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_moonstone.gif">
+            </div>
+            <div class="partner-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_pwh.gif">
+            </div>
+            <div class="partner-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_glacier.gif">
+            </div>
+            <div class="partner-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_stanlib.gif">
+            </div>
+        </div>
     </div>
-  </div>
-
-  <div class="portfolios">
-    <div class="portfolios--left">
-      <div class="portfolios--left--content">
-        <h1 class="section-title section-title-left size-sm colour-white">Our Managed Portfolios</h1>
-        <p>The StrategiQ Managed Portfolios are constructed in accordance with our Investment Philosophy and Process.</p>
-        <p>Investors will have direct ownership of JSE listed equities, globally listed equities, real estate holdings, preference loan stock, and government bonds within the investment guidelines of each specific mandate.</p>
-      </div>
-    </div>
-    <div class="portfolios--right">
-      <ul class="portfolio-items">
-        <li>
-          <a href="" class="portfolio-item" data-toggle="modal" data-target="#modal-income">
-            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/port_income_sm.jpg">
-            <div class="portfolio-item--title">Income Focused Portfolio</div>
-          </a>
-        </li>
-        <li>
-          <a href="" class="portfolio-item" data-toggle="modal" data-target="#modal-preference">
-            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/port_preference_sm.jpg">
-            <div class="portfolio-item--title">Preference Share Portfolio</div>
-          </a>
-        </li>
-        <li>
-          <a href="" class="portfolio-item" data-toggle="modal" data-target="#modal-prudential">
-            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/port_prudential_sm.jpg">
-            <div class="portfolio-item--title">Prudential Share Portfolio</div>
-          </a>
-        </li>
-        <li>
-          <a href="" class="portfolio-item" data-toggle="modal" data-target="#modal-multiasset">
-            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/port_multiasset_sm.jpg">
-            <div class="portfolio-item--title">Multi-Asset Portfolios</div>
-          </a>
-        </li>
-        <li>
-          <a href="" class="portfolio-item" data-toggle="modal" data-target="#modal-property">
-            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/port_property_sm.jpg">
-            <div class="portfolio-item--title">Property Share Portfolio</div>
-          </a>
-        </li>
-        <li>
-          <a href="" class="portfolio-item" data-toggle="modal" data-target="#modal-domestic">
-            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/port_domestic_sm.jpg">
-            <div class="portfolio-item--title">Domestic Managed Portfolio</div>
-          </a>
-        </li>
-        <li>
-          <a href="" class="portfolio-item" data-toggle="modal" data-target="#modal-global">
-            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/port_global_sm.jpg">
-            <div class="portfolio-item--title">Global Managed Portfolio</div>
-          </a>
-        </li>
-        <li>
-          <a href="" class="portfolio-item" data-toggle="modal" data-target="#modal-bespoke">
-            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/port_bespoke_sm.jpg">
-            <div class="portfolio-item--title">Bespoke Portfolios</div>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="container">
-    <h1 class="section-title size-md">Our Partners</h1>
-    <div class="partners-carousel owl-carousel">
-      <div class="partner-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_sanlam.gif">
-      </div>
-      <div class="partner-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_hewett.gif">
-      </div>
-      <div class="partner-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_momentum.gif">
-      </div>
-      <div class="partner-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_nedbank.gif">
-      </div>
-      <div class="partner-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_credo.gif">
-      </div>
-      <div class="partner-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_ens.gif">
-      </div>
-      <div class="partner-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_agcapital.gif">
-      </div>
-      <div class="partner-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_swissquote_2.gif">
-      </div>
-      <div class="partner-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_iis.gif">
-      </div>
-      <div class="partner-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_investec.gif">
-      </div>
-      <div class="partner-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_nedgroup.gif">
-      </div>
-      <div class="partner-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_sastockbrokers.gif">
-      </div>
-      <div class="partner-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_oldmutual.gif">
-      </div>
-      <div class="partner-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_moonstone.gif">
-      </div>
-      <div class="partner-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_pwh.gif">
-      </div>
-      <div class="partner-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_glacier.gif">
-      </div>
-      <div class="partner-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_stanlib.gif">
-      </div>
-    </div>
-  </div>
 </section>
-
 <section id="newsletters" class="section section-home-newsletters">
   <div class="container">
     <h1 class="section-title colour-white">Insights</h1>
