@@ -22,20 +22,21 @@
 
 
             <div class="nav-contact">
-              <div class="">
                 <div class="contact-phone">27 (0)21 401 8940</div>
                 <ul class="contact-social">
-                  <li>
-                    <a href="https://www.facebook.com/StrategiQ-Capital-158555407854708" target="_blank"><span class="icon-facebook"></span></a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/_StrategiQ_" target="_blank"><span class="icon-twitter"></span></a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/company/strategiqcapital" target="_blank"><span class="icon-linkedin"></span></a>
-                  </li>
+                    <li>
+                        <a href="https://www.facebook.com/StrategiQ-Capital-158555407854708" target="_blank"><span class="icon-facebook"></span></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/_StrategiQ_" target="_blank"><span class="icon-twitter"></span></a>
+                    </li>
+                    <!--<li>
+                      <a href="https://www.linkedin.com/company/strategiqcapital" target="_blank"><span class="icon-linkedin"></span></a>
+                    </li>-->
                 </ul>
-              </div>
+                <div class="login-box">
+                    <a href="#">Login</a>
+                </div>
             </div>
           </div>
       </nav>
