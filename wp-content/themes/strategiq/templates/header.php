@@ -18,14 +18,8 @@
             <?php if(!is_front_page()) {
               $url_prefix = esc_url(site_url()) . '/';
             } ?>
+            <?php wp_nav_menu(array('menu_class' =>'nav-items nav navbar-nav', 'menu' => 'Main Menu', 'echo' => true)) ?>
 
-            <ul class="nav-items nav navbar-nav">
-              <li><a href="<?= $url_prefix; ?>#about">About Us</a></li>
-              <li><a href="<?= $url_prefix; ?>#team">The Team</a></li>
-              <li><a href="<?= $url_prefix; ?>#portfolios">Portfolio Management</a></li>
-              <li class="<?php if(is_category('newsletters')) echo 'active'; ?>"><a href="<?=esc_url(site_url());?>/category/insights">Insights</a></li>
-              <li><a href="<?= $url_prefix; ?>#contact">Contact Us</a></li>
-            </ul>
 
             <div class="nav-contact">
               <div class="container">
