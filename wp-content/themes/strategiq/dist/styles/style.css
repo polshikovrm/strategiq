@@ -88,6 +88,14 @@
 .section.light-purple-bg h6{
     color: #fff;
 }
+.twocolumn-section h1,
+.twocolumn-section h2,
+.twocolumn-section h3,
+.twocolumn-section h4,
+.twocolumn-section h5,
+.twocolumn-section h6{
+    color: inherit;
+}
 .section.light-purple-bg{
     background: #524562;
     color: #fff;
@@ -111,25 +119,14 @@
 }
 .twocolumn-section ul{
     margin: 0;
-    padding: 3px 0 0;
-    list-style: none;
+    padding: 3px 0 0 14px;
 }
 .twocolumn-section ul li{
-    padding: 0 0 11px 40px;
+    padding: 0 0 11px 26px;
     position: relative;
 }
 .twocolumn-section.gray-bg ul li{
-    padding: 0 0 0 35px;
-}
-.twocolumn-section ul li:before{
-    content: '';
-    position: absolute;
-    top: 7px;
-    left:4px;
-    width: 3px;
-    height: 3px;
-    background: #3c3c3c;
-    border-radius: 50%;
+    padding: 0 0 0 21px;
 }
 .purple-bg ul li:before{
     background: #fff;
@@ -408,6 +405,9 @@
         opacity:0;
         transition: all 0.15s;
         -webkit-transition: all 0.15s;
+    }
+    .navbar .nav-items > .active > a:not([href]){
+
     }
     .navbar .nav-items > .active > a:after,
     .navbar .nav-items > .active > a:hover:after,
