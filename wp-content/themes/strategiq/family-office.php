@@ -59,7 +59,7 @@
         <img src="<?php echo get_template_directory_uri(); ?>/dist/images/img-05.jpg" alt="image description">
     </div>
     <div class="text-holder width-3">
-        <div class="text">
+        <div class="text-box">
             <div class="title-block">
                 <h1>Our Purpose</h1>
             </div>
