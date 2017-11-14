@@ -44,7 +44,7 @@
                 <div class="text-holder <?php echo $text_block_width ?>">
                     <div class="text">
                         <div class="title-block">
-                            <h1><?php the_sub_field('section_title') ?>Our Services</h1>
+                            <h1><?php the_sub_field('section_title') ?></h1>
                         </div>
                         <?php the_sub_field('section_decsription') ?>
                     </div>
@@ -75,7 +75,7 @@
                 <div class="text-holder <?php echo $text_block_width ?>">
                     <div class="text">
                         <div class="title-block">
-                            <h1><?php the_sub_field('section_title') ?>Our Services</h1>
+                            <h1><?php the_sub_field('section_title') ?></h1>
                         </div>
                         <?php the_sub_field('section_decsription') ?>
                     </div>
