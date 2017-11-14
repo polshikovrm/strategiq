@@ -406,23 +406,27 @@
         transition: all 0.15s;
         -webkit-transition: all 0.15s;
     }
-    .navbar .nav-items > .active > a:not([href]){
-
+    .navbar .nav-items > li > a
+    .navbar .nav-items > li > a:not([href^='/#']),
+    .navbar .nav-items > li > a[href^='/#'],
+    .navbar .nav-items > li.active > a[href^='/#']{
+        color: #3c3c3c;
     }
-    .navbar .nav-items > .active > a:after,
-    .navbar .nav-items > .active > a:hover:after,
-    .navbar .nav-items > .open > a:after,
-    .navbar .nav-items > .open > a:focus:after,
-    .navbar .nav-items > .open > a:hover:after,
-    .navbar .nav-items > li > a:hover:after{
+    .navbar .nav-items > li.active > a:not([href^='/#']):after,
+    .navbar .nav-items > li.active > a:not([href^='/#']):hover:after,
+    .navbar .nav-items > li.open > a:not([href^='/#']):after,
+    .navbar .nav-items > li.open > a:not([href^='/#']):focus:after,
+    .navbar .nav-items > li.open > a:not([href^='/#']):hover:after,
+    .navbar .nav-items > li > a:not([href^='/#']):hover:after{
         opacity:1;
+        color: #bf965c;
     }
     .menu-holder .nav-contact{
         flex: none;
         width: 110px;
         position: static;
         text-align: right;
-        padding: 0;
+        padding: 10px 0;
     }
     .nav-contact .contact-phone{
         display: block;
@@ -508,6 +512,7 @@
     }
     .menu-holder .nav-contact{
         width: 180px;
+        padding: 30px 0;
     }
     .nav-contact .contact-phone{
         display: inline-block;
