@@ -5,7 +5,7 @@
 ?>
 <section class="visual-section" style="background-image: url(<?php the_post_thumbnail_url(); ?>)">
     <div class="container">
-        <h1>About us</h1>
+        <h1><?php the_title() ?></h1>
     </div>
 </section>
 <section class="section content-section">
