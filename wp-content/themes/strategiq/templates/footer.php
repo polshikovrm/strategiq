@@ -7,13 +7,7 @@
         </div>
 
         <div class="col-sm-2 margin-bot-sm">
-          <ul class="footer-nav footer-nav-bold">
-            <li><a href="<?=esc_url(site_url());?>/#about">About Us</a></li>
-            <li><a href="<?=esc_url(site_url());?>/#team">The Team</a></li>
-            <li><a href="<?=esc_url(site_url());?>/#portfolios">Portfolio Management</a></li>
-            <li><a href="<?=esc_url(site_url());?>/category/insights">Insights</a></li>
-            <li><a href="<?=esc_url(site_url());?>/#contact">Contact Us</a></li>
-          </ul>
+            <?php wp_nav_menu(array('menu_class' =>'footer-nav footer-nav-bold', 'menu' => 'Footer Left Menu', 'echo' => true)) ?>
         </div>
 
         <div class="col-sm-2 margin-bot-sm">

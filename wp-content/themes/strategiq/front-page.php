@@ -46,18 +46,18 @@
     </div>
   </div>
 </section>
+<?php $page = get_page_by_path( 'about-us' ) ?>
 
 <section class="section content-section">
     <div class="container">
         <div class="title-block text-center">
-            <h1>About Us</h1>
+            <h1><?php echo get_the_title( $page );?></h1>
         </div>
         <div class="row">
             <div class="col-sm-10 col-sm-push-1 text-center">
-                <p>StrategiQ Capital was founded in 2015 with the culmination of like-minded investment professionals seeking to actively manage and grow investors wealth. As guardians of the capital entrusted to us we invest our money alongside our investors ensuring an alignment of interests.</p>
-                <p>We believe that our mandate is not limited to investment performance alone, but also in playing an active role in assisting our clients in developing an overarching wealth management strategy. This will only be achieved by building meaningful relationships with our clients, thus facilitating a seamless transfer of assets from generation to generation, ensuring an uninterrupted continuity of their family's legacy and business interests.</p>
+                <?php echo the_field('main_section_content', $page->ID);?>
                 <div class="btn-box">
-                    <a href="#" class="btn btn-default small-radius btn-lg">FIND OuT MORE</a>
+                    <a href="<?php echo get_the_permalink( $page );?>" class="btn btn-default small-radius btn-lg">FIND OuT MORE</a>
                 </div>
             </div>
         </div>
@@ -72,9 +72,9 @@
             <p>StrategiQ is an approved discretionary investment manager (i.e. a Category II Financial Services Provider, FSP Licence No 46624) that is independently managed, focussed on providing investors with consistent real returns whilst preserving capital over the long term. Our service and reporting to our clients takes two forms, written and personal.</p>
             <p>We produce quarterly reports which cover the respective portfolio's performance and risk statistics. We like to meet frequently with clients to stay close to their portfolio objectives and any changes that may need to be considered in the management of their portfolios. Our Weekly Review emailed each week keeps our clients abreast of current market conditions.</p>
             <div class="buttons-holder">
-                <a href="#" class="btn btn-default small-radius btn-md">asset Management</a>
-                <a href="#" class="btn btn-default small-radius btn-md">Family Office</a>
-                <a href="#" class="btn btn-default small-radius btn-md">ID Adviser</a>
+                <a href="<?php echo get_permalink(get_page_by_path('asset-management'))?>" class="btn btn-default small-radius btn-md">asset Management</a>
+                <a href="<?php echo get_permalink(get_page_by_path('family-office'))?>" class="btn btn-default small-radius btn-md">Family Office</a>
+                <a href="http://www.strategiqadvisor.com/" class="btn btn-default small-radius btn-md" target="_blank">ID Adviser</a>
             </div>
         </div>
     </div>
