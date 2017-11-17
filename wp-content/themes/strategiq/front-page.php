@@ -46,16 +46,20 @@
     </div>
   </div>
 </section>
-<?php $page = get_page_by_path( 'about-us' ) ?>
+<?php //$page = get_page_by_path( 'about-us' ) ?>
 
 <section class="section content-section">
     <div class="container">
         <div class="title-block text-center">
             <h1><?php echo get_the_title( $page );?></h1>
+            <h1>About Us</h1>
         </div>
         <div class="row">
             <div class="col-sm-10 col-sm-push-1 text-center">
-                <?php echo the_field('main_section_content', $page->ID);?>
+<!--                --><?php //echo the_field('main_section_content', $page->ID);?>
+                <p>StrategiQ Capital (Pty) Ltd (“StrategiQ”) is an owner-managed and independent investment firm. Our goal is to forge long-term relationships built on delivery and trust.</p>
+                <p>Our business is to actively manage our clients’ wealth, helping them to achieve their unique investment goals.</p>
+                <p>We are driven to build a world-class investment firm that helps our clients secure a better financial future.</p>
                 <div class="btn-box">
                     <a href="<?php echo get_the_permalink( $page );?>" class="btn btn-default small-radius btn-lg">FIND OuT MORE</a>
                 </div>
@@ -69,8 +73,9 @@
             <div class="title-block">
                 <h1>Our Services</h1>
             </div>
-            <p>StrategiQ is an approved discretionary investment manager (i.e. a Category II Financial Services Provider, FSP Licence No 46624) that is independently managed, focussed on providing investors with consistent real returns whilst preserving capital over the long term. Our service and reporting to our clients takes two forms, written and personal.</p>
-            <p>We produce quarterly reports which cover the respective portfolio's performance and risk statistics. We like to meet frequently with clients to stay close to their portfolio objectives and any changes that may need to be considered in the management of their portfolios. Our Weekly Review emailed each week keeps our clients abreast of current market conditions.</p>
+            <p>StrategiQ is an approved discretionary investment manager (i.e. a Category II Financial Services Provider, FSP Licence No 46624) focused on providing investors with superior investment performance and quality service.</p>
+            <p>We believe that expert financial advice plays an important role in assisting our clients’ to achieve their long-term financial goals. We therefore consider it crucial to partner with skillful financial advisers.</p>
+            <p>All our services are underpinned by a disciplined and rigorous investment process. Find out more about each of our investment services below:</p>
             <div class="buttons-holder">
                 <a href="<?php echo get_permalink(get_page_by_path('asset-management'))?>" class="btn btn-default small-radius btn-md">asset Management</a>
                 <a href="<?php echo get_permalink(get_page_by_path('family-office'))?>" class="btn btn-default small-radius btn-md">Family Office</a>
