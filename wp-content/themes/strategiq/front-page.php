@@ -51,7 +51,7 @@
 <section class="section content-section">
     <div class="container">
         <div class="title-block text-center">
-            <h1><?php echo get_the_title( $page );?></h1>
+
             <h1>About Us</h1>
         </div>
         <div class="row">

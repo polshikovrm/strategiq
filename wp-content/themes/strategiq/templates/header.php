@@ -30,9 +30,9 @@
                     <li>
                         <a href="https://twitter.com/_StrategiQ_" target="_blank"><span class="icon-twitter"></span></a>
                     </li>
-                    <!--<li>
+                    <li>
                       <a href="https://www.linkedin.com/company/strategiqcapital" target="_blank"><span class="icon-linkedin"></span></a>
-                    </li>-->
+                    </li>
                 </ul>
                 <!--<div class="login-box">
                     <a href="#">Login</a>
