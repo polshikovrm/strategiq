@@ -79,7 +79,7 @@
             <div class="buttons-holder">
                 <a href="<?php echo get_permalink(get_page_by_path('asset-management'))?>" class="btn btn-default small-radius btn-md">asset Management</a>
                 <a href="<?php echo get_permalink(get_page_by_path('family-office'))?>" class="btn btn-default small-radius btn-md">Family Office</a>
-                <a href="http://www.strategiqadvisor.com/" class="btn btn-default small-radius btn-md" target="_blank">ID Adviser</a>
+                <a href="http://www.strategiqadvisor.com/" class="btn btn-default small-radius btn-md" target="_blank">IQ Advisor</a>
             </div>
         </div>
     </div>
