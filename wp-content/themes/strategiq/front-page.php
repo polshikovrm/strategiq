@@ -46,7 +46,7 @@
     </div>
   </div>
 </section>
-<?php //$page = get_page_by_path( 'about-us' ) ?>
+<?php $page = get_page_by_path( 'about-us' ) ?>
 
 <section class="section content-section">
     <div class="container">
