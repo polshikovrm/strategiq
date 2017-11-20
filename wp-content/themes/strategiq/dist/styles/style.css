@@ -235,8 +235,8 @@
     text-shadow: none;
 }
 .section-home-banner .header--col2--insights{
-    /*background: #504562;*/
-    background: #6c7099;
+    /*background: #6c7099;*/
+    background: #2f346c;
 }
 .section-home-banner .header--col2--signup{
     text-transform: uppercase;
@@ -288,7 +288,7 @@
     letter-spacing: 1px;
     margin: 10px 13px 0 0;
     font-weight: 500;
-    width: 100%;
+    width: 290px;
 }
 .twocolumn-section.services-section .text-holder{
     padding: 71px 6% 57px 165px;
@@ -428,7 +428,7 @@
     }
     .menu-holder .nav-contact{
         flex: none;
-        width: 110px;
+        width: 200px;
         position: static;
         text-align: right;
         padding: 10px 0;
@@ -505,7 +505,7 @@
         width: calc(100% - 310px);
     }
     .menu-holder .nav-contact{
-        width: 180px;
+        width: 200px;
         padding: 30px 0;
     }
     .nav-contact .contact-phone{
