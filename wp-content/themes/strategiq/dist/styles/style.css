@@ -227,7 +227,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size:36px;
+    font-size:24px;
     line-height: 1.33;
 }
 .section-home-banner .banner-overlay p{
@@ -291,7 +291,7 @@
     width: 290px;
 }
 .twocolumn-section.services-section .text-holder{
-    padding: 71px 6% 57px 165px;
+    padding: 71px 20px 57px;
 }
 .section-home-team{
     padding: 71px 0;
@@ -487,6 +487,12 @@
     }
     .twocolumn-section .text-block:last-child{
         margin: 0 0 23px;
+    }
+    .section-home-banner .banner-overlay{
+        font-size:36px;
+    }
+    .twocolumn-section.services-section .text-holder{
+        padding: 71px 6% 57px 165px;
     }
 }
 @media (min-width:1200px){
