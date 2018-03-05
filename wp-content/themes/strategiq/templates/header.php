@@ -35,7 +35,7 @@
                     </li>
                 </ul>
                 <div class="login-box">
-                    <a href="#">Login</a>
+                    <a href="http://familyoffice.strategiq.co.za/" target="_blank">Login</a>
                 </div>
             </div>
           </div>
