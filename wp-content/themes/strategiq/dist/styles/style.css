@@ -5,6 +5,7 @@
     color: #cb8163;
     text-transform: uppercase;
     font-size:13px;
+    padding: 0 0 0 5px;
 }
 .login-box a{
     color: #cb8163;
@@ -327,7 +328,7 @@
         display: none !important;
     }
     .navbar-collapse.collapse.in{
-        display: block !important;
+        display: flex !important;
     }
     .navbar-toggle{
         display: block;
@@ -428,7 +429,7 @@
     }
     .menu-holder .nav-contact{
         flex: none;
-        width: 270px;
+        width: 235px;
         position: static;
         text-align: right;
         padding: 10px 0;
@@ -438,7 +439,7 @@
     }
     .nav-contact .contact-phone{
         display: block;
-        margin: 0 0 10px;
+        margin: 0;
         padding: 0;
         border: none;
         text-align: right;
