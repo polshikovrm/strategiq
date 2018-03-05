@@ -328,7 +328,7 @@
         display: none !important;
     }
     .navbar-collapse.collapse.in{
-        display: flex !important;
+        display: block !important;
     }
     .navbar-toggle{
         display: block;
@@ -426,6 +426,9 @@
     .navbar .nav-items > li > a:not([href^='/#']):hover:after{
         opacity:1;
         color: #bf965c;
+    }
+    .navbar-collapse.collapse.in{
+        display: flex !important;
     }
     .menu-holder .nav-contact{
         flex: none;
