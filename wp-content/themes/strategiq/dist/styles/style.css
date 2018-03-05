@@ -503,9 +503,9 @@
     }
 }
 @media (min-width:1200px){
-    .nav-row{
+   /* .nav-row{
         min-height:104px;
-    }
+    }*/
 }
 @media (min-width:1300px){
     .header-holder{
