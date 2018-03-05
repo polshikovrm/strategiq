@@ -34,9 +34,9 @@
                       <a href="https://www.linkedin.com/company/strategiqcapital" target="_blank"><span class="icon-linkedin"></span></a>
                     </li>
                 </ul>
-                <!--<div class="login-box">
+                <div class="login-box">
                     <a href="#">Login</a>
-                </div>-->
+                </div>
             </div>
           </div>
       </nav>

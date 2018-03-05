@@ -428,10 +428,13 @@
     }
     .menu-holder .nav-contact{
         flex: none;
-        width: 200px;
+        width: 270px;
         position: static;
         text-align: right;
         padding: 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
     }
     .nav-contact .contact-phone{
         display: block;
@@ -519,6 +522,7 @@
         vertical-align: top;
         border-right: 1px solid #eaeaea;
         padding: 0 10px 0 0;
+        margin: 0;
     }
     .navbar .nav-items > li{
         padding: 0 20px;
@@ -528,7 +532,7 @@
     }
     .login-box{
         font-size:15px;
-        padding: 0 0 29px;
+        padding: 0 0 0 15px;
     }
 }
 @media (min-width:1500px){
