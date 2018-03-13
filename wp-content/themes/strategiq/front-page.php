@@ -2,7 +2,7 @@
   <div class="header--col1">
     <div class="banner-overlay">
         <div>
-            <p>StrategiQ Capital is an independent investment manager with experience in managing personalised investment portfolios for private investors, trusts and institutions</p>
+
         </div>
     </div>
   </div>
