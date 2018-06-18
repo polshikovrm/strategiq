@@ -1,5 +1,6 @@
 <section class="section section-home-banner">
-  <div class="header--col1" style="background: url(<?php the_field('block_background'); ?> ) no-repeat;">
+    <?php  $block_background = get_field('block_background');  ?>
+  <div class="header--col1" style="background: url(<?php  echo isset($block_background['url']) ? $block_background['url'] :'' ?> ) no-repeat;">
     <div class="banner-overlay">
         <div class="text-block">
             <h1><?php the_field('title'); ?></h1>
