@@ -5,7 +5,7 @@
         <div class="text-block">
             <h1><?php the_field('title'); ?></h1>
             <p><?php the_field('description'); ?></p>
-            <a href="<?php the_field('link'); ?>" class="btn">Read More</a>
+            <a href="<?php the_field('read_more_link'); ?>" class="btn">Read More</a>
         </div>
     </div>
   </div>
