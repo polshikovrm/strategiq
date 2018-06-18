@@ -218,22 +218,53 @@
 }
 /*----------- Home page styles -----------*/
 .section-home-banner .header--col1{
-    background: url(../images/home_banner_5.png) no-repeat;
+    /*background: url(../images/home_banner_5.png) no-repeat;*/
     -webkit-background-size: cover;
     background-size: cover;
+    padding: 30px 20px;
 }
 .section-home-banner .banner-overlay{
     height: 100%;
     position: static;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size:24px;
+    font-size:16px;
     line-height: 1.33;
 }
 .section-home-banner .banner-overlay p{
     font-size:inherit;
     text-shadow: none;
+}
+.section-home-banner .header--col1 .text-block{
+    font-size:16px;
+    line-height: 1.33;
+    color: #fff;
+    text-align: left;
+}
+.section-home-banner .header--col1 .text-block h1{
+    font-weight: normal;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0 0 20px;
+    font-size: 30px;
+}
+.section-home-banner .header--col1 .text-block p{
+    font-size:16px;
+    line-height: 1.33;
+    margin: 0 0 20px;
+    text-align: left;
+}
+.section-home-banner .header--col1 .text-block .btn{
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 0;
+    transition: background 0.3s ease-out;
+}
+.section-home-banner .header--col1 .text-block .btn:hover{
+    background: #fff;
+    color: #3c3c3c;
 }
 .section-home-banner .header--col2--insights{
     /*background: #6c7099;*/
@@ -500,6 +531,12 @@
     }
     .twocolumn-section.services-section .text-holder{
         padding: 71px 6% 57px 165px;
+    }
+    .section-home-banner .header--col1{
+        padding: 30px 50px;
+    }
+    .section-home-banner .header--col1 .text-block h1{
+        font-size: 49px;
     }
 }
 @media (min-width:1200px){
