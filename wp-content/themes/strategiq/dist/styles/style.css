@@ -239,6 +239,7 @@
     line-height: 1.33;
     color: #fff;
     text-align: left;
+    max-width: 545px;
 }
 .section-home-banner .header--col1 .text-block h1{
     font-weight: normal;
@@ -251,20 +252,22 @@
     font-size:16px;
     line-height: 1.33;
     margin: 0 0 20px;
-    text-align: left;
+    text-align: justify;
+    width: 100%;
 }
 .section-home-banner .header--col1 .text-block .btn{
     text-transform: uppercase;
     padding: 5px 10px;
     font-size: 14px;
-    color: #fff;
     border: 3px solid #fff;
     border-radius: 0;
     transition: background 0.3s ease-out;
-}
-.section-home-banner .header--col1 .text-block .btn:hover{
     background: #fff;
     color: #3c3c3c;
+}
+.section-home-banner .header--col1 .text-block .btn:hover{
+    background: transparent;
+    color: #fff;
 }
 .section-home-banner .header--col2--insights{
     /*background: #6c7099;*/
